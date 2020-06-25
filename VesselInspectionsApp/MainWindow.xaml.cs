@@ -26,6 +26,7 @@ namespace VesselInspectionsApp
             System.Windows.Data.CollectionViewSource mainViewModelViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("mainViewModelViewSource")));
             // Load data by setting the CollectionViewSource.Source property:
             mainViewModelViewSource.Source = new List<object>() { _model };
+
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
